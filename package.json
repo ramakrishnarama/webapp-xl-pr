@@ -33,7 +33,15 @@
     "sharp": "^0.33.4"
   },
     "engines": {
-      "node": ">=18.17.0 <19.0.0"
+      "node": ">=18.17.0 <19.0.0",
+      "yarn": ">=1.22.15"
+    },
+    "optionalDependencies": {
+      "@img/sharp-darwin-arm64": "0.33.4",
+      "@img/sharp-linux-arm64": "0.33.4"
+    },
+    "peerDependencies": {
+      "csstype": "^3.0.10"
     },
     "overrides": {
       "@img/sharp-darwin-arm64": {
