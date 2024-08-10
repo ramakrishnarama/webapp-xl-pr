@@ -33,8 +33,7 @@
     "sharp": "^0.33.4"
   },
     "engines": {
-      "node": ">=18.17.0 <19.0.0",
-      "yarn": ">=1.22.15"
+      "node": ">=18.17.0 <19.0.0"
     },
     "optionalDependencies": {
       "@img/sharp-darwin-arm64": "0.33.4",
