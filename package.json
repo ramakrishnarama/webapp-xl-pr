@@ -33,6 +33,17 @@
     "sharp": "^0.33.4"
   },
     "engines": {
-      "node": ">=18.17.0 <19.0.0"
+      "node": ">=18.17.0 <19.0.0",
+      "yarn": ">=1.22.15",
+      "npm": ">=7.0.0"
+    },
+    "overrides": {
+      "@img/sharp-darwin-arm64": {
+        "engines": {
+          "pnpm": "*",
+          "glibc": "*",
+          "macos": "*"
+        }
+      }
     }
 }
