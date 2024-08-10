@@ -23,13 +23,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '20.3.0'  # Change this to your desired Node.js version
-        
-      - name: Install dependencies
-        run: npm install  # Change this if you're using a package manager other than npm
-
-      - name: Build Next.js project
-        run: npm run build  # Change this if you're using a different build command
-
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
