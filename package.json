@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "next start",
-    "build": "next build",
+    "build": "next build && cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/",
     "test": "next test",
     "eject": "next eject",
     "predeploy": "npm run build",
