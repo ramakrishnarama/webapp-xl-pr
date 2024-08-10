@@ -22,11 +22,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'  # or a compatible version like '20.x'
-      - name: Install dependencies
-        run: yarn install  # or npm install if using npm
-      - name: Build
-        run: yarn build  # or npm run build if using npm
+          node-version: '20.3.0'  # or a compatible version like '20.x'
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
