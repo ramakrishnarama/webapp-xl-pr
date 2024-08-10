@@ -41,14 +41,5 @@
     },
     "peerDependencies": {
       "csstype": "^3.0.10"
-    },
-    "overrides": {
-      "@img/sharp-darwin-arm64": {
-        "engines": {
-          "pnpm": "*",
-          "glibc": "*",
-          "macos": "*"
-        }
-      }
     }
 }
